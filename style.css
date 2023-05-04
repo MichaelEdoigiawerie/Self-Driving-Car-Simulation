@@ -1,0 +1,46 @@
+:root {
+    font-size: 14px;
+    --primary-col: rgb(49, 47, 47);
+    --secondary-col: rgb(255, 34, 0);
+    --bg-col: black;
+    --button-col: orange;
+}
+
+body {
+    margin: 0;
+    background: var(--bg-col);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#verticalButtons {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 15px 15px 16px 15px;
+    margin: 2px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: var(--button-col);
+}
+
+i {
+    font-size: 2.5rem;
+}
+
+#networkCanvas {
+    background: var(--secondary-col);
+}
+
+#carCanvas {
+    background: var(--primary-col);
+}
