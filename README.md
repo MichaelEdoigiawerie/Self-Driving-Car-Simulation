@@ -13,6 +13,6 @@
     - The button at the center is used to `DELETE` all the data the car has taken in. This is mostly used in case you encounter a road block.
     - The button at the bottom is used to `TOGGLE` the visibility of the car's sensors.
 ## Tips
-- The goal of the car is to pass all the obstacles in traffic. Once it has achieved that goal, use the `SAVE` button to store its best performance. Otherwise, don't save at all.
+- The goal of the car is to pass all the obstacles in traffic. Once it has achieved that goal, use the `SAVE` button to store its best performance. Also save it's progress if it hits an obstacle. But don't save it if it hits the edge of the road.
 - At least 100 "trial" cars are recommended for your car. The greater the "trial" cars, the faster it will learn. Any amount greater than 250 is acceptable, as long as your computer could handle it.
 - If you see that your car isn't making any progress initially, refresh the page. 
