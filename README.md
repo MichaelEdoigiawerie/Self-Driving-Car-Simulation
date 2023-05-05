@@ -15,5 +15,6 @@
 ## Tips
 - **Please Note:** This process takes a little bit of time to get the hang of.
 - The goal of the car is to pass all the obstacles in traffic. Once it has achieved that goal, use the `SAVE` button to store its best performance. Also save it's progress if it hits an obstacle. But don't save it if the car permanently tails an obstacle or hits the edge of the road.
+- Once your car has achieved its goal multiple times, you are now ready to test your self driving car by removing the "trial" cars (Type the number 1 into the first prompt). 
 - At least 100 "trial" cars are recommended for your car. The greater the "trial" cars, the faster it will learn. Any amount greater than 250 is acceptable, as long as your computer could handle it.
 - If you see that your car isn't making any progress initially, refresh the page. 
